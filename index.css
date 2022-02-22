@@ -43,7 +43,9 @@ header *{
 }
 header h1{
     margin: 0 0 30px;
+    color: #FFFFE0;
 }
+
 form{
     position: relative;
     width: 500px;
@@ -57,40 +59,6 @@ form input{
     padding: 15px 30px;
     width: 100%;
 }
-
-/* autosearch */
-
-input .autocom-box{
-    padding: 0;
-    opacity: 0;
-    pointer-events: none;
-    max-height: 280px;
-    overflow-y: auto;
-  }
-  input.active .autocom-box{
-    padding: 10px 8px;
-    opacity: 1;
-    pointer-events: auto;
-  }
-  .autocom-box li{
-    list-style: none;
-    padding: 8px 12px;
-    display: none;
-    width: 100%;
-    cursor: default;
-    border-radius: 3px;
-  }
-  .search-input.active .autocom-box li{
-    display: block;
-  }
-  .autocom-box li:hover{
-    background: #efefef;
-  }
-
-
-
-/* ----- */
-
 
 
 
@@ -137,7 +105,10 @@ ul.song li{
 }
 .container p{
     text-align: center;
-    
+    color: #2F4F4F;
+}
+.container p:hover{
+    color: darkblue;
 }
 .centered{
     display: flex;
