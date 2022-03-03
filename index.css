@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(35, 104, 131);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
 button{
@@ -36,7 +36,7 @@ head:after{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: black;
 }
 header *{
     z-index: 1;
@@ -67,7 +67,7 @@ form button{
     position: absolute;
     top: 2px;
     right: 2px;
-    background-color: #006400;
+    background-color: #008B8B;
     border: 0;
     border-radius: 50px;
     color: white;
@@ -75,15 +75,16 @@ form button{
     padding: 13px 30px;
 }
 .btn{
-    background-color: #006400;
+    background-color: #008B8B;
     border: 0;
     color: white;
 }
 button:hover{
-    background-color: #DC143C;
+    background-color:#DC143C;
 }
 ul.song{
     list-style-type: none;
+    color: white;
 
 }
 ul.song li{
@@ -91,11 +92,13 @@ ul.song li{
     align-items: center;
     justify-content: space-between;
     margin: 10px 0;
+    color: white;
 }
 .container{
     margin: 30px auto;
     max-width: 100%;
     width: 500px;
+   
 
 
 }
@@ -105,16 +108,21 @@ ul.song li{
 }
 .container p{
     text-align: center;
-    color: #2F4F4F;
+    color: #98aaaa;
+    font-size: 40px;
 }
 .container p:hover{
-    color: darkblue;
+    color: #66CDAA;
+   
 }
 .centered{
     display: flex;
     justify-content: center;
+  
+    
 }
 .centered button{
     transform: scale(1.3);
     margin: 15px;
+    
 }
